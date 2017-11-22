@@ -1,0 +1,246 @@
+{ "cardsData" :[
+  {
+  "id":"1",
+  "dataGroups": "all UXUI",
+  "title": "Travel video contents media",
+  "typeOfWork": "personal",
+  "date": "2017-11-17",
+  "shortDiscription":"Contents centered travel cummunity app",
+  "discription":"During steaming video, each contents will be showed up the lists under the video player. This is a simple concept of Video + blog ",
+  "thumbImage":"contents/img/portfolio/thumb/travelVid/travelVid.jpg",
+  "imageLists":[
+    "contents/img/portfolio/travelVid/travelVid.gif"
+  ]
+  },
+  {
+  "id":"2",
+  "dataGroups": "all UXUI product",
+  "title": "bricklayers",
+  "typeOfWork": "personal",
+  "date": "2017-09-24",
+  "shortDiscription":"a concept for idea shaing and brain storming",
+  "discription":"Bricklayers is focused on to solve local and small size of issues rapidly. It is working as brainstorming with a short sentence of questions and ideas or solutions. Each answer can have branches for the detailed or developed and better solutions. ",
+  "thumbImage":"contents/img/portfolio/thumb/bricklayers/bricklayers1.png",
+  "imageLists":[
+    "contents/img/portfolio/bricklayers/bricklayers1.png",
+    "contents/img/portfolio/bricklayers/bricklayers2.png"
+  ]
+  },
+  {
+  "id":"3",
+  "dataGroups": "all UXUI product",
+  "title": "language learning web app",
+  "typeOfWork": "Power English",
+  "date": "2017-08-28",
+  "shortDiscription":"languagelearning web-app UX UI designed for a promotional page, sign-in sign-up slide page.",
+  "discription":"Power English wants to build mobile version of poromotion web-app. The first page focuses on giving information about course promotion. If the user like to join the class, directly register at modal signup page or slide menu. The slide menu also works as a private course manager pannel at one place.",
+  "thumbImage":"contents/img/portfolio/thumb/pweng/pwEng1.jpg",
+  "imageLists":[
+    "contents/img/portfolio/pweng/pwEng1.jpg",
+    "contents/img/portfolio/pweng/pwEng2.jpg",
+    "contents/img/portfolio/pweng/pwEng3.jpg",
+    "contents/img/portfolio/pweng/pwEng4.jpg"
+  ]
+},
+    {
+    "id":"4",
+    "dataGroups": "all branding",
+    "title": "Atlantic Canada Socks Pettern",
+    "typeOfWork": "Atlantic Canada Socks",
+    "date": "2017-07-16",
+    "shortDiscription":"Socks pattern design for gift or souvenior",
+    "discription":"Pattern design for Atlantic trading post. This pattern is applied for gift socks. The whale and tall ship symbols represent Atlantic Canada. ",
+    "thumbImage":"contents/img/portfolio/thumb/atlantic/HoodieMockup.jpg",
+    "imageLists":[
+      "contents/img/portfolio/atlantic/HoodieMockup.jpg",
+      "contents/img/portfolio/atlantic/HoodieMockup2.jpg"
+    ]
+  },
+  {
+  "id":"5",
+  "dataGroups": "all print branding",
+  "title": "Bure-go BI",
+  "typeOfWork": "Bure-go",
+  "date": "2016-06-08",
+  "shortDiscription":"Brand Identity design for the restaurent",
+  "discription":"Bure-go mainly serves modern japanese style Don-Katz and Soba noodle. The old look caligraphy represent their history and proud of master's tasty.",
+  "thumbImage":"contents/img/portfolio/thumb/burego/buregoStreetSign.jpg",
+  "imageLists":[
+    "contents/img/portfolio/burego/buregoStationery.jpg",
+    "contents/img/portfolio/burego/buregoStreetSign.jpg"
+  ]
+},
+{
+"id":"6",
+"dataGroups": "all print branding",
+"title": "Cosemei BI",
+"typeOfWork": "Yua-mi trading",
+"date": "2016-04-14",
+"shortDiscription":"Brand Identity and packaging design for the cosmetic brand",
+"discription":"Yua-mi trading wanted to have their private brand for global distribute cosmetic products. The major selling products are contained medical injection look packaging. I intended to show their medical specialty blooms beauty on the logo.",
+"thumbImage":"contents/img/portfolio/thumb/cosmei/cosmeiBox1.jpg",
+"imageLists":[
+  "contents/img/portfolio/cosmei/cosmeiBox2.jpg",
+  "contents/img/portfolio/cosmei/cosmeiBox1.jpg",
+  "contents/img/portfolio/cosmei/cosmeiCollect.jpg"
+]
+},
+{
+"id":"7",
+"dataGroups": "all print UXUI branding",
+"title": "Amuse Travel",
+"typeOfWork": "SYO",
+"date": "2015-10-28",
+"shortDiscription":"Amuse Travel logo and app design",
+"discription":"Amuse Travel is a travel vanture company for disabilites. I designed and directed their CI, printings, Web designs and app. ",
+"thumbImage":"contents/img/portfolio/thumb/",
+"imageLists":[
+  ""
+]
+},
+{
+"id":"8",
+"dataGroups": "all print",
+"title": "KLPA catalog and brochure",
+"typeOfWork": "KLPA",
+"date": "2016-04-14",
+"shortDiscription":"KLPA logo renewal, brochure, catalog design",
+"discription":"KLPA requested a modern and fancy style of company catalog and brochure but not too casual. I serviced their printings with renewed logo and guideline. ",
+"thumbImage":"contents/img/portfolio/thumb/lifeAsso/Perspective_Spread.jpg",
+"imageLists":[
+  "contents/img/portfolio/lifeAsso/Back_Cover.jpg",
+  "contents/img/portfolio/lifeAsso/bussCard.jpg",
+  "contents/img/portfolio/lifeAsso/Perspective_Spread.jpg",
+  "contents/img/portfolio/lifeAsso/Spread.jpg",
+  "contents/img/portfolio/lifeAsso/trifold1.jpg",
+  "contents/img/portfolio/lifeAsso/trifold2.jpg"
+]
+},
+{
+"id":"9",
+"dataGroups": "all branding print",
+"title": "eurim Inc CI renewal",
+"typeOfWork": "eurim INC",
+"date": "2013-11-17",
+"shortDiscription":"Eurim Inc logo renew. Eurim Inc is about eco friendly active charchol handling and retailing company.",
+"discription":"Eurim did not have an offical CI before. This was team project. I took a part of symbol logo development positions. 20% of contrubution.",
+"thumbImage":"contents/img/portfolio/thumb/eurim/eurim.jpg",
+"imageLists":[
+  "contents/img/portfolio/eurim/eurim.jpg",
+  "contents/img/portfolio/eurim/eurim1.jpg",
+  "contents/img/portfolio/eurim/eurim2.jpg"
+]
+},
+{
+"id":"10",
+"dataGroups": "all branding printing product",
+"title": "Hanju Brew bottle package",
+"typeOfWork": "HanJu Brew Inc",
+"date": "2014-01-20",
+"shortDiscription":"Hanju brew Inc bottle and packaging design for their ginseng liquor line.",
+"discription":"I designed the background hand illustration, emlem for a certification, graphic packaging, bottle, and label design. 90% contribution.",
+"thumbImage":"contents/img/portfolio/thumb/hanju/1.jpg",
+"imageLists":[
+  "contents/img/portfolio/hanju/1.jpg",
+  "contents/img/portfolio/hanju/2.jpg",
+  "contents/img/portfolio/hanju/3.jpg",
+  "contents/img/portfolio/hanju/4.jpg",
+  "contents/img/portfolio/hanju/5.jpg",
+  "contents/img/portfolio/hanju/6.jpg"
+]
+},
+{
+"id":"10",
+"dataGroups": "all branding printing product",
+"title": "Hanju CI",
+"typeOfWork": "HanJu Brew Inc",
+"date": "2014-01-20",
+"shortDiscription":"Hanju Brew CI renew.",
+"discription":"Hanju Brew requested a new logo that customer feel comportable and friendly. The orange color of symbol logo represent Hanju brew's classical craftmanship and the semi-serif style of Korean chractor gives an image that customers easily access. 90% of contribution.",
+"thumbImage":"contents/img/portfolio/thumb/hanju/Branding-Identity-Mockup.jpg",
+"imageLists":[
+  "contents/img/portfolio/hanju/Branding-Identity-Mockup.jpg",
+  "contents/img/portfolio/hanju/Branding-Identity-Mockup2.jpg"
+]
+},
+{
+"id":"11",
+"dataGroups": "all branding",
+"title": "Seven CI",
+"typeOfWork": "seven",
+"date": "2016-04-14",
+"shortDiscription":"",
+"discription":"",
+"thumbImage":"contents/img/portfolio/thumb/seven/Free-Smart-Photo-Frame-Mockup2.jpg",
+"imageLists":[
+  "contents/img/portfolio/seven/Free-Smart-Photo-Frame-Mockup1.jpg",
+  "contents/img/portfolio/seven/Free-Smart-Photo-Frame-Mockup2.jpg"
+]
+},
+{
+"id":"12",
+"dataGroups": "all branding printing",
+"title": "KCC paint package renewal concept",
+"typeOfWork": "KCC",
+"date": "2016-04-14",
+"shortDiscription":"",
+"discription":"",
+"thumbImage":"contents/img/portfolio/thumb/kcc/kcc1.jpg",
+"imageLists":[
+  "contents/img/portfolio/kcc/kcc1.jpg",
+  "contents/img/portfolio/kcc/kcc2.jpg"
+]
+},
+{
+"id":"13",
+"dataGroups": "all product",
+"title": "Book and Pill conceptt",
+"typeOfWork": "persnal",
+"date": "2016-04-14",
+"shortDiscription":"",
+"discription":"",
+"thumbImage":"contents/img/portfolio/thumb/bookAndPill/5.jpg",
+"imageLists":[
+  "contents/img/portfolio/bookAndPill/1.jpg",
+  "contents/img/portfolio/bookAndPill/2.jpg",
+  "contents/img/portfolio/bookAndPill/3.jpg",
+  "contents/img/portfolio/bookAndPill/4.jpg",
+  "contents/img/portfolio/bookAndPill/5.jpg"
+]
+},
+{
+"id":"14",
+"dataGroups": "all product",
+"title": "Noore-myeon",
+"typeOfWork": "persnal",
+"date": "2016-04-14",
+"shortDiscription":"",
+"discription":"",
+"thumbImage":"contents/img/portfolio/thumb/nooreMyeon/1.jpg",
+"imageLists":[
+  "contents/img/portfolio/nooreMyeon/1.jpg",
+  "contents/img/portfolio/nooreMyeon/2.jpg",
+  "contents/img/portfolio/nooreMyeon/3.jpg",
+  "contents/img/portfolio/nooreMyeon/4.jpg",
+  "contents/img/portfolio/nooreMyeon/5.jpg"
+]
+},
+{
+"id":"14",
+"dataGroups": "all product",
+"title": "sketch",
+"typeOfWork": "persnal",
+"date": "2016-04-14",
+"shortDiscription":"",
+"discription":"",
+"thumbImage":"",
+"imageLists":[
+  ""
+]
+}
+
+
+
+
+  ]
+}
