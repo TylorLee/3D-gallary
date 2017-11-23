@@ -23,14 +23,12 @@
 
     <script src="https://cdn.babylonjs.com/babylon.js"></script>
     <script src="lib/schteppe-cannon.js/build/cannon.js"></script>
+      
     <!-- scripts -->
 
-    <title>tylor lee</title>
+    <title>Digital Media 3D Art Gallery</title>
 
   </head>
-
-  <!-- ===========head end body start=========== -->
-  <!-- ===========head end body start=========== -->
 
   <body>
 
@@ -44,14 +42,14 @@
   var scene = new BABYLON.Scene(engine);
   var createScene = function () {
 
-        // Scene
-
-
+        // Scene Starts
         BABYLON.SceneLoader.ImportMesh("", "", "untitled.babylon", scene, function (newMeshes, particleSystems, skeletons){
-          for(var i=0; i<scene.meshes.length; i++){
-              scene.meshes[i].checkCollisions=true;
-            }
+//          for(var i=0; i<scene.meshes.length; i++){
+//              scene.meshes[i].checkCollisions=true;
+//            }
         });
+      
+      
         // Free camera
         var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
         // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
@@ -65,22 +63,57 @@
         camera.keysLeft.push('A'.charCodeAt(0));
         camera.keysRight.push('D'.charCodeAt(0));
         camera.attachControl(canvas, true);
-        camera.applyGravity = true;
+        camera.applyGravity = false;
         scene.gravity = new BABYLON.Vector3(0, -1, 0);
-
-        scene.onPointerDown = function () {
-          scene.onPointerDown = undefined
-          camera.attachControl(canvas, true);
-        }
-        // Light
-        var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 10, 1), scene);
-        light.intensity = 0.1;
       
-      var light0 = new BABYLON.SpotLight("Spot0", new BABYLON.Vector3(317, 58, 10), new BABYLON.Vector3(5.3, -3, -1), 200, 1, scene);
-light0.diffuse = new BABYLON.Color3(1, 1, 1);
-light0.specular = new BABYLON.Color3(1, 1, 1);
+//        engine.isPointerLock = true;
+//        engine.switchFullscreen(true);
+      
 
-	       // scene.debugLayer.show();
+        // Take control of the mouse
+	   var isLocked = false;
+        scene.onPointerDown = function (evt) {       	// On click event, request pointer lock
+            if (!isLocked) {
+                canvas.requestPointerLock = canvas.requestPointerLock || canvas.msRequestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
+                if (canvas.requestPointerLock) {
+                    canvas.requestPointerLock();
+                }
+            }
+            //referance for future shooting requests or whatever :P
+            //evt === 0 (left mouse click)
+            //evt === 1 (mouse wheel click (not scrolling))
+            //evt === 2 (right mouse click)
+        };
+        var pointerlockchange = function () {
+            var controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;
+            if (!controlEnabled) {
+                //camera.detachControl(canvas);
+                isLocked = false;
+            } else {
+                //camera.attachControl(canvas);
+                isLocked = true;
+            }
+        };
+        document.addEventListener("pointerlockchange", pointerlockchange, false);
+        document.addEventListener("mspointerlockchange", pointerlockchange, false);
+        document.addEventListener("mozpointerlockchange", pointerlockchange, false);
+        document.addEventListener("webkitpointerlockchange", pointerlockchange, false);
+
+        //        scene.onPointerDown = function () {
+        //          scene.onPointerDown = undefined
+        //          camera.attachControl(canvas, true);
+        //            canvas.requestPointerLock();
+        //        }
+        
+        // Lights
+        var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 10, 1), scene);
+        light.intensity = 0.6;
+      
+        var light0 = new BABYLON.SpotLight("Spot0", new BABYLON.Vector3(317, 58, 10), new BABYLON.Vector3(5.3, -3, -1), 200, 1, scene);
+        light0.diffuse = new BABYLON.Color3(1, 1, 1);
+        light0.specular = new BABYLON.Color3(1, 1, 1);
+
+        // scene.debugLayer.show();
 
          return scene;
 
@@ -97,12 +130,8 @@ light0.specular = new BABYLON.Color3(1, 1, 1);
         });
 
     </script>
-    <!-- <script type="text/javascript" src="js/threeJsFront.js"></script>
-
- -->
+    <!-- <script type="text/javascript" src="js/threeJsFront.js"></script> -->
     <!-- <script type="text/javascript" src="js/load_main.js"></script> -->
-
-
   </body>
 
 </html>
