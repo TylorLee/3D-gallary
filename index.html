@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <!-- fix device height, fix scale, hide browser default bars -->
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, minimal-ui">
-    <!-- STYLE -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <!-- fix device height, fix scale, hide browser default bars -->
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, minimal-ui">
+
+    <!-- STYLE -->
+
     <link rel="stylesheet" href="style/css/reset.css">
     <style media="screen">
       #renderCanvas {
@@ -12,16 +19,21 @@
         height: 100%;
       }
     </style>
-    <!-- libraries -->
+    <!-- libraries -->
+
     <script src="https://cdn.babylonjs.com/babylon.js"></script>
     <script src="lib/schteppe-cannon.js/build/cannon.js"></script>
-    <!-- scripts -->
-    <title>tylor lee</title>
-  </head>
+    <!-- scripts -->
+
+    <title>tylor lee</title>
+
+  </head>
+
   <!-- ===========head end body start=========== -->
   <!-- ===========head end body start=========== -->
 
-  <body>
+  <body>
+
 
   <canvas id="renderCanvas"></canvas>
 
@@ -62,7 +74,11 @@
         }
         // Light
         var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 10, 1), scene);
-        light.intensity = 0.9;
+        light.intensity = 0.1;
+      
+      var light0 = new BABYLON.SpotLight("Spot0", new BABYLON.Vector3(317, 58, 10), new BABYLON.Vector3(5.3, -3, -1), 200, 1, scene);
+light0.diffuse = new BABYLON.Color3(1, 1, 1);
+light0.specular = new BABYLON.Color3(1, 1, 1);
 
 	       // scene.debugLayer.show();
 
@@ -81,8 +97,13 @@
         });
 
     </script>
-    <!-- <script type="text/javascript" src="js/threeJsFront.js"></script> -->
-    <!-- <script type="text/javascript" src="js/load_main.js"></script> -->
-
-  </body>
-</html>
+    <!-- <script type="text/javascript" src="js/threeJsFront.js"></script>
+
+ -->
+    <!-- <script type="text/javascript" src="js/load_main.js"></script> -->
+
+
+  </body>
+
+</html>
+
