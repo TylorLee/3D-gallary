@@ -2,137 +2,41 @@
 
 <html>
 
-  <head>
+<head>
 
     <meta charset="utf-8">
 
     <!-- fix device height, fix scale, hide browser default bars -->
-
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, minimal-ui">
 
     <!-- STYLE -->
-
     <link rel="stylesheet" href="style/css/reset.css">
     <style media="screen">
-      #renderCanvas {
-        width: 100%;
-        height: 100%;
-      }
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+        }
     </style>
+
     <!-- libraries -->
 
     <script src="https://cdn.babylonjs.com/babylon.js"></script>
     <script src="lib/schteppe-cannon.js/build/cannon.js"></script>
-      
+    <script src="lib/Babylon.js/dist/loaders/babylon.objFileLoader.min.js"></script>
+
     <!-- scripts -->
+    <!-- <script type="text/javascript" src="js/threeJsFront.js"></script> -->
+    <!-- <script type="text/javascript" src="js/load_main.js"></script> -->
 
     <title>Digital Media 3D Art Gallery</title>
 
-  </head>
+</head>
 
-  <body>
+<body>
 
+    <canvas id="renderCanvas"></canvas>
+    <script src="core.js"></script>
 
-  <canvas id="renderCanvas"></canvas>
-
-  <!-- babylon contents script from here -->
-  <script>
-  var canvas = document.getElementById("renderCanvas");
-  var engine = new BABYLON.Engine(canvas, true);
-  var scene = new BABYLON.Scene(engine);
-  var createScene = function () {
-
-        // Scene Starts
-        BABYLON.SceneLoader.ImportMesh("", "", "untitled.babylon", scene, function (newMeshes, particleSystems, skeletons){
-//          for(var i=0; i<scene.meshes.length; i++){
-//              scene.meshes[i].checkCollisions=true;
-//            }
-        });
-      
-      
-        // Free camera
-        var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
-        // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
-        camera.setTarget(BABYLON.Vector3.Zero());
-        camera.checkCollisions = true;
-        camera.ellipsoid = new BABYLON.Vector3(5, 10, 5);
-        camera.minZ = 0.8;
-        camera.speed = 3;
-        camera.keysUp.push('W'.charCodeAt(0));
-        camera.keysDown.push('S'.charCodeAt(0));
-        camera.keysLeft.push('A'.charCodeAt(0));
-        camera.keysRight.push('D'.charCodeAt(0));
-        camera.attachControl(canvas, true);
-        camera.applyGravity = false;
-        scene.gravity = new BABYLON.Vector3(0, -1, 0);
-      
-//        engine.isPointerLock = true;
-//        engine.switchFullscreen(true);
-      
-
-        // Take control of the mouse
-	   var isLocked = false;
-        scene.onPointerDown = function (evt) {       	// On click event, request pointer lock
-            if (!isLocked) {
-                canvas.requestPointerLock = canvas.requestPointerLock || canvas.msRequestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
-                if (canvas.requestPointerLock) {
-                    canvas.requestPointerLock();
-                }
-            }
-            //referance for future shooting requests or whatever :P
-            //evt === 0 (left mouse click)
-            //evt === 1 (mouse wheel click (not scrolling))
-            //evt === 2 (right mouse click)
-        };
-        var pointerlockchange = function () {
-            var controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;
-            if (!controlEnabled) {
-                //camera.detachControl(canvas);
-                isLocked = false;
-            } else {
-                //camera.attachControl(canvas);
-                isLocked = true;
-            }
-        };
-        document.addEventListener("pointerlockchange", pointerlockchange, false);
-        document.addEventListener("mspointerlockchange", pointerlockchange, false);
-        document.addEventListener("mozpointerlockchange", pointerlockchange, false);
-        document.addEventListener("webkitpointerlockchange", pointerlockchange, false);
-
-        //        scene.onPointerDown = function () {
-        //          scene.onPointerDown = undefined
-        //          camera.attachControl(canvas, true);
-        //            canvas.requestPointerLock();
-        //        }
-        
-        // Lights
-        var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 10, 1), scene);
-        light.intensity = 0.6;
-      
-        var light0 = new BABYLON.SpotLight("Spot0", new BABYLON.Vector3(317, 58, 10), new BABYLON.Vector3(5.3, -3, -1), 200, 1, scene);
-        light0.diffuse = new BABYLON.Color3(1, 1, 1);
-        light0.specular = new BABYLON.Color3(1, 1, 1);
-
-        // scene.debugLayer.show();
-
-         return scene;
-
-        };
-        var scene = createScene();
-
-        engine.runRenderLoop(function () {
-          scene.render();
-        });
-
-        // Resize
-        window.addEventListener("resize", function () {
-          engine.resize();
-        });
-
-    </script>
-    <!-- <script type="text/javascript" src="js/threeJsFront.js"></script> -->
-    <!-- <script type="text/javascript" src="js/load_main.js"></script> -->
-  </body>
+</body>
 
 </html>
-
