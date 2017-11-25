@@ -18,8 +18,8 @@ var createScene = function () {
     //            BABYLON.SceneLoader.Load("/assets/", "testobj.obj", engine, function(newScene) {
     //                // ...
     //            });
-    var meshTask = preloader.addMeshTask("Interior", "", "assets/", "untitled.babylon");
-    //            var batman = preloader.addMeshTask("testobj", "", "assets/", "testobj.obj");
+//    var meshTask = preloader.addMeshTask("Interior", "", "assets/", "untitled.babylon");
+    var galleryInterior = preloader.addMeshTask("Gallery Interior", "", "assets/", "GalleryInterior.obj");
 
     //            BABYLON.SceneLoader.ImportMesh("testobj", "testobj.obj", scene, function (meshes) { 
     //                // newScene[0].position = new BABYLON.Vector3(14.5, 9, -24.5);
@@ -81,13 +81,24 @@ var createScene = function () {
 
     // Lights
     var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 10, 1), scene);
-    light.intensity = 0.6;
+    light.intensity = 0.3;
+    
+    var sunlight = new BABYLON.DirectionalLight("DirectionalLight", new BABYLON.Vector3(-0.5, -1, -1.5), scene);
+    sunlight.intensity = 0.6;
 
     var light0 = new BABYLON.SpotLight("Spot0", new BABYLON.Vector3(317, 58, 10), new BABYLON.Vector3(5.3, -3, -1), 200, 1, scene);
     light0.diffuse = new BABYLON.Color3(1, 1, 1);
     light0.specular = new BABYLON.Color3(1, 1, 1);
 
-
+    // Shadows
+    var shadowGenerator = new BABYLON.ShadowGenerator(4096, light);
+        // shadowGenerator.useVarianceShadowMap = true;
+        shadowGenerator.usePoissonSampling = true; 
+        shadowGenerator.bias = 0.0001;
+        shadowGenerator.getShadowMap().renderList.push(newMesh[0],newMesh[1],newMesh[2],newMesh[3],newMesh[4], newMesh[5]);
+//    var shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
+//    shadowGenerator.getShadowMap().renderList.push(torus);
+    
     // TODO: DEBUG Layer not working. Solve this D:
     //    BABYLON.DebugLayer.InspectorURL = 'http://myurl/babylon.inspector.bundle.js';
     //   scene.debugLayer.show({
@@ -104,14 +115,27 @@ var createScene = function () {
     //        colorBottom:'blue'
     //    }
     //});
+    
+            for (mesh in scene.meshes) {
+            scene.meshes[mesh].receiveShadows = true;
+        }
+        console.log(scene.meshes[6].receiveShadows);
 
-    meshTask.onSuccess = function (task) {
+    galleryInterior.onSuccess = function (task) {
         task.loadedMeshes[0].position = new BABYLON.Vector3(0, 0, 0);
         engine.loadingUIText = "Loaded asset " + task.loadedMeshes[0].name;
         console.log(task.loadedMeshes[0].name);
-        for (var i = 0; i < scene.meshes.length; i++) {
-            scene.meshes[i].checkCollisions = true;
-        }
+//        for (var i = 0; i < scene.meshes.length; i++) {
+//            scene.meshes[i].checkCollisions = true;
+//        }
+        
+        
+//               for (var i = 0; i < scene.meshes.length; i++) {
+//            let mesh = scene.meshes[i];
+//
+//            shadowGenerator.getShadowMap().renderList.push(mesh);
+//            mesh.receiveShadows = true;
+//        }
     }
 
     preloader.onTaskError = function (task) {
@@ -129,6 +153,7 @@ var createScene = function () {
             scene.render();
         });
     };
+    
     preloader.load();
     return scene;
 
