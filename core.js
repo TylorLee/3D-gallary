@@ -91,11 +91,11 @@ var createScene = function () {
     light0.specular = new BABYLON.Color3(1, 1, 1);
 
     // Shadows
-    var shadowGenerator = new BABYLON.ShadowGenerator(4096, light);
-        // shadowGenerator.useVarianceShadowMap = true;
-        shadowGenerator.usePoissonSampling = true; 
-        shadowGenerator.bias = 0.0001;
-        shadowGenerator.getShadowMap().renderList.push(newMesh[0],newMesh[1],newMesh[2],newMesh[3],newMesh[4], newMesh[5]);
+//    var shadowGenerator = new BABYLON.ShadowGenerator(4096, light);
+//        // shadowGenerator.useVarianceShadowMap = true;
+//        shadowGenerator.usePoissonSampling = true; 
+//        shadowGenerator.bias = 0.0001;
+//        shadowGenerator.getShadowMap().renderList.push(newMesh[0],newMesh[1],newMesh[2],newMesh[3],newMesh[4], newMesh[5]);
 //    var shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
 //    shadowGenerator.getShadowMap().renderList.push(torus);
     
@@ -109,7 +109,7 @@ var createScene = function () {
     skybox.infiniteDistance = true;
     // prevent reflection to skybox
     skyboxMaterial.disableLighting = true;
-    skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skybox/skybox", scene);
+    skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skyboxtropical/skybox", scene);
     skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
     
     // TODO: DEBUG Layer not working. Solve this D:
@@ -129,10 +129,10 @@ var createScene = function () {
     //    }
     //});
     
-            for (mesh in scene.meshes) {
-            scene.meshes[mesh].receiveShadows = true;
-        }
-        console.log(scene.meshes[6].receiveShadows);
+//            for (mesh in scene.meshes) {
+//            scene.meshes[mesh].receiveShadows = true;
+//        }
+//        console.log(scene.meshes[6].receiveShadows);
 
     galleryInterior.onSuccess = function (task) {
         task.loadedMeshes[0].position = new BABYLON.Vector3(0, 0, 0);
