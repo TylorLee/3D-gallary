@@ -38,7 +38,7 @@ var createScene = function () {
     camera.keysLeft.push('A'.charCodeAt(0));
     camera.keysRight.push('D'.charCodeAt(0));
     camera.attachControl(canvas, true);
-    camera.applyGravity = false;
+    camera.applyGravity = true;
     scene.gravity = new BABYLON.Vector3(0, -1, 0);
 
     //        engine.isPointerLock = true;
@@ -138,9 +138,9 @@ var createScene = function () {
         task.loadedMeshes[0].position = new BABYLON.Vector3(0, 0, 0);
         engine.loadingUIText = "Loaded asset " + task.loadedMeshes[0].name;
         console.log(task.loadedMeshes[0].name);
-//        for (var i = 0; i < scene.meshes.length; i++) {
-//            scene.meshes[i].checkCollisions = true;
-//        }
+        for (var i = 0; i < scene.meshes.length; i++) {
+            scene.meshes[i].checkCollisions = true;
+        }
         
         
 //               for (var i = 0; i < scene.meshes.length; i++) {
