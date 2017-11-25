@@ -99,6 +99,19 @@ var createScene = function () {
 //    var shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
 //    shadowGenerator.getShadowMap().renderList.push(torus);
     
+    // ENVIRONMENT
+    var skybox = BABYLON.Mesh.CreateBox("skyBox", 1000.0, scene);
+    var skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
+    skyboxMaterial.backFaceCulling = false;
+    skyboxMaterial.disableLighting = true;
+    skybox.material = skyboxMaterial;
+
+    skybox.infiniteDistance = true;
+    // prevent reflection to skybox
+    skyboxMaterial.disableLighting = true;
+    skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skybox/skybox", scene);
+    skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
+    
     // TODO: DEBUG Layer not working. Solve this D:
     //    BABYLON.DebugLayer.InspectorURL = 'http://myurl/babylon.inspector.bundle.js';
     //   scene.debugLayer.show({

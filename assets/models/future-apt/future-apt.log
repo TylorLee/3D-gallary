@@ -1,0 +1,193 @@
+	Exporter version: 4.6.1, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  C:\MAMP\htdocs\3D-gallary\assets\models\future-apt\
+	Python World class constructor completed
+	processing begun of mesh:  Ceiling_green_1
+		processing begun of Standard material:  Ceiling_green_1_001
+		num positions      :  16
+		num normals        :  16
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  ceiling_white_1
+		processing begun of Standard material:  ceiling_white_1_001
+		num positions      :  7
+		num normals        :  7
+		num uvs            :  14
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  9
+	processing begun of mesh:  Ceiling_white_2
+		processing begun of Standard material:  Ceiling_white_2_001
+		num positions      :  23
+		num normals        :  23
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  Cube_009
+		processing begun of Standard material:  Metal_1_001
+		processing begun of Standard material:  Glas_001
+		processing begun of Standard material:  Metal_2
+		processing begun of multimaterial:  future_apt.Multimaterial#0
+		num positions      :  1121
+		num normals        :  1121
+		num uvs            :  2242
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1806
+	processing begun of mesh:  Door_Frame_001
+		processing begun of Standard material:  Door_Frame_001
+		num positions      :  179
+		num normals        :  179
+		num uvs            :  358
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  360
+	processing begun of mesh:  Door_Frame_002
+		mesh is an instance of :  Door_Frame_001.  Processing halted.
+	processing begun of mesh:  Door_Frame
+		mesh is an instance of :  Door_Frame_001.  Processing halted.
+	processing begun of mesh:  FLoor_white
+		processing begun of Standard material:  FLoor_white_001
+		num positions      :  13942
+		num normals        :  13942
+		num uvs            :  27884
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  62232
+	processing begun of mesh:  Glas
+		registered as also a user of material:  Glas_001
+		num positions      :  2590
+		num normals        :  2590
+		num uvs            :  5180
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  10368
+	processing begun of mesh:  Inside_Floor_green
+		processing begun of Standard material:  Inside_Floor_green_001
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  Inside_Floor_green_2
+		processing begun of Standard material:  Inside_Floor_green_2_001
+		num positions      :  21
+		num normals        :  21
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  27
+	processing begun of mesh:  Inside_wall_green
+		processing begun of Standard material:  Inside_wall_green_001
+		num positions      :  16
+		num normals        :  16
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  Inside_wall_green_2
+		processing begun of Standard material:  Inside_wall_green_2_001
+		num positions      :  24
+		num normals        :  24
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  33
+	processing begun of mesh:  Inside_wall_white_2
+		processing begun of Standard material:  Inside_wall_white_2_001
+		num positions      :  73
+		num normals        :  73
+		num uvs            :  146
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  102
+	processing begun of mesh:  Inside_wall_yellow
+		processing begun of Standard material:  Inside_wall_yellow_001
+		num positions      :  16
+		num normals        :  16
+		num uvs            :  32
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  Inside_wall_yellow_2
+		processing begun of Standard material:  Inside_wall_yellow_2_001
+		num positions      :  30
+		num normals        :  30
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  39
+	processing begun of mesh:  Inside_Wood
+		processing begun of Standard material:  Inside_Wood_001
+		num positions      :  320
+		num normals        :  320
+		num uvs            :  640
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  699
+	processing begun of mesh:  Lampswitches_001
+		processing begun of Standard material:  Lamps_Frames_001
+		processing begun of Standard material:  Lights_001
+		processing begun of multimaterial:  future_apt.Multimaterial#1
+		num positions      :  252
+		num normals        :  252
+		num uvs            :  504
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  378
+	processing begun of mesh:  Lampswitches
+		processing begun of Standard material:  Lampswitches_002
+		num positions      :  564
+		num normals        :  564
+		num uvs            :  1128
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  702
+	processing begun of mesh:  Metal_1
+		registered as also a user of material:  Metal_1_001
+		num positions      :  9358
+		num normals        :  9358
+		num uvs            :  18716
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  35352
+	processing begun of mesh:  Tiles_outside_1
+		processing begun of Standard material:  Tiles_outside_1_001
+		num positions      :  26
+		num normals        :  26
+		num uvs            :  52
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  72
+	processing begun of mesh:  Walls_outside
+		processing begun of Standard material:  Walls_outside_001
+		num positions      :  6502
+		num normals        :  6502
+		num uvs            :  13004
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  27648
+	processing begun of mesh:  Wood_Foor
+		processing begun of Standard material:  Wood_Foor_001
+		num positions      :  18
+		num normals        :  18
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48
+	processing begun of camera (FreeCamera):  Camera.001
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of light (HEMI):  Hemi
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 3.3793 secs
