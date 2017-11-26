@@ -1,12 +1,25 @@
-# Blender MTL File: 'GalleryInteriorV2.blend'
-# Material Count: 27
+# Blender MTL File: 'GalleryInteriorV3.blend'
+# Material Count: 26
 
-newmtl None
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
+newmtl Carpet_Plush_Charcoal
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd textures\\Carpet_Plush_Charcoal.jpg
+
+newmtl Wall_V2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
 illum 2
 
 newmtl _96_96_96
@@ -38,17 +51,6 @@ Ke 0.000000 0.000000 0.000000
 Ni -1.000000
 d 1.000000
 illum 2
-
-newmtl __Carpet_Plush_Charcoal_
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni -1.000000
-d 1.000000
-illum 2
-map_Kd C:\\Users\\C. Onur\\Desktop\\Art Gallery Models\\C33SketchUp\\model\\__Carpet_Plush_Charcoal_.jpg
 
 newmtl __Charcoal_
 Ns 96.078431
@@ -139,7 +141,7 @@ Ke 0.000000 0.000000 0.000000
 Ni -1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\C. Onur\\Desktop\\Art Gallery Models\\C33SketchUp\\model\\__Translucent_Glass_Safety_.jpg
+map_Kd textures\\Translucent_Glass_Safety.jpg
 
 newmtl __Water_Pool_
 Ns 96.078431
@@ -150,7 +152,7 @@ Ke 0.000000 0.000000 0.000000
 Ni -1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\C. Onur\\Desktop\\Art Gallery Models\\Swimming+Pool\\model\\__Water_Pool_.jpg
+map_Kd textures\\Water_Pool.jpg
 
 newmtl __Water_Pool_Light_
 Ns 96.078431
@@ -257,16 +259,6 @@ newmtl material_5
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.380392 0.200000 0.239216
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni -1.000000
-d 1.000000
-illum 2
-
-newmtl material_6
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 0.980392 0.992157
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni -1.000000
