@@ -19,7 +19,7 @@ var createScene = function () {
     //                // ...
     //            });
 //    var meshTask = preloader.addMeshTask("Interior", "", "assets/", "untitled.babylon");
-    var galleryInterior = preloader.addMeshTask("Gallery Interior", "", "assets/", "GalleryInterior.babylon");
+    var galleryInterior = preloader.addMeshTask("Gallery Interior", "", "assets/", "gallery.babylon");
 
     //            BABYLON.SceneLoader.ImportMesh("testobj", "testobj.obj", scene, function (meshes) { 
     //                // newScene[0].position = new BABYLON.Vector3(14.5, 9, -24.5);
