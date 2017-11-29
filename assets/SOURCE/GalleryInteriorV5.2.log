@@ -1,0 +1,1028 @@
+Exporter version: 5.4.2, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  G:\Projects!\3D Gallery\assets\
+	Python World class constructor completed
+	processing begun of mesh:  SketchUp.317_ID425
+		processing begun of Standard material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.315_ID409
+		processing begun of Standard material:  material_0.001
+		processing begun of Standard material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#0
+		num positions      :  38
+		num normals        :  38
+		num uvs            :  76
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  42
+	processing begun of mesh:  SketchUp.306_ID335
+		registered as also a user of material:  material.001
+		processing begun of Standard material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#1
+		num positions      :  160
+		num normals        :  160
+		num uvs            :  320
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  180
+	processing begun of mesh:  Column.001_Cube.009
+		processing begun of Standard material:  material.007
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  Cube.004_Cube.022
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.302_ID301
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  20
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.030_ID205
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.356_ID751
+		registered as also a user of material:  material_0.001
+		processing begun of Standard material:  black
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#2
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  BuildingStructureWall_Cube.004
+		processing begun of Standard material:  None
+		num positions      :  41
+		num normals        :  41
+		num uvs            :  82
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  183
+	processing begun of mesh:  Ground_Cube
+		processing begun of Standard material:  Carpet_Plush_Charcoal
+			Diffuse texture found "Kd"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  8
+		num normals        :  8
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.300_ID285
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  24
+		num normals        :  24
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  SketchUp.345_ID656
+		processing begun of Standard material:  material_4
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#3
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  TestWall_Cube.001
+		registered as also a user of material:  None
+		num positions      :  23
+		num normals        :  23
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.357_ID759
+		registered as also a user of material:  material_4
+		processing begun of Standard material:  material_3
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#4
+		num positions      :  17
+		num normals        :  17
+		num uvs            :  34
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  SketchUp.301_ID293
+		registered as also a user of material:  material_1
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#5
+		num positions      :  29
+		num normals        :  29
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  instance_0.022_ID173
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  instance_0.027_ID193
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.324_ID481
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#6
+		num positions      :  54
+		num normals        :  54
+		num uvs            :  108
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  60
+	processing begun of mesh:  SketchUp.309_ID361
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#7
+		num positions      :  178
+		num normals        :  178
+		num uvs            :  356
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  180
+	processing begun of mesh:  SketchUp.325_ID489
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.003_ID17
+		processing begun of Standard material:  __Beige_1
+		num positions      :  373
+		num normals        :  373
+		num uvs            :  746
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  450
+	processing begun of mesh:  SketchUp.329_ID528
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#8
+		num positions      :  24
+		num normals        :  24
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  RoofGlass_Cube.015
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  166
+		num normals        :  166
+		num uvs            :  332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  192
+	processing begun of mesh:  instance_0.013_ID109
+		processing begun of Standard material:  __Charcoal_
+		num positions      :  89
+		num normals        :  89
+		num uvs            :  178
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  102
+	processing begun of mesh:  Roof_Cube.014
+		registered as also a user of material:  None
+		num positions      :  470
+		num normals        :  470
+		num uvs            :  940
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  576
+	processing begun of mesh:  instance_0.015_ID125
+		registered as also a user of material:  __Charcoal_
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  instance_0.008_ID63
+		processing begun of Standard material:  _96_96_96
+		processing begun of Standard material:  __0135_DarkGray_
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#9
+		num positions      :  87
+		num normals        :  87
+		num uvs            :  174
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  102
+	processing begun of mesh:  ArtworkPane.003_Cube.012
+		processing begun of Standard material:  material.010
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.327_ID505
+		registered as also a user of material:  material.001
+		registered as also a user of material:  Carpet_Plush_Charcoal
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#10
+		num positions      :  102
+		num normals        :  102
+		num uvs            :  204
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  366
+	processing begun of mesh:  SketchUp.355_ID743
+		registered as also a user of material:  material_0.001
+		processing begun of Standard material:  material_5
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#11
+		num positions      :  39
+		num normals        :  39
+		num uvs            :  78
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  42
+	processing begun of mesh:  SketchUp.354_ID735
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#12
+		num positions      :  108
+		num normals        :  108
+		num uvs            :  216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  114
+	processing begun of mesh:  instance_0.016_ID133
+		registered as also a user of material:  _96_96_96
+		num positions      :  106
+		num normals        :  106
+		num uvs            :  212
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  126
+	processing begun of mesh:  SketchUp.304_ID319
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  black
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#13
+		num positions      :  24
+		num normals        :  24
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  SketchUp.294_ID229
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#14
+		num positions      :  270
+		num normals        :  270
+		num uvs            :  540
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  294
+	processing begun of mesh:  SketchUp.319_ID441
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#15
+		num positions      :  6
+		num normals        :  6
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  SketchUp.347_ID672
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.330_ID536
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#16
+		num positions      :  72
+		num normals        :  72
+		num uvs            :  144
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  72
+	processing begun of mesh:  instance_0.011_ID91
+		registered as also a user of material:  __Charcoal_
+		num positions      :  139
+		num normals        :  139
+		num uvs            :  278
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  162
+	processing begun of mesh:  instance_0.020_ID165
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  StructureGround_Cube.003
+		registered as also a user of material:  None
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.331_ID544
+		registered as also a user of material:  material_1
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#17
+		num positions      :  70
+		num normals        :  70
+		num uvs            :  140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  72
+	processing begun of mesh:  SketchUp.333_ID560
+		registered as also a user of material:  material_1
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#18
+		num positions      :  17
+		num normals        :  17
+		num uvs            :  34
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  SketchUp.323_ID473
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#19
+		num positions      :  24
+		num normals        :  24
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  ArtworkPane.002_Cube.010
+		processing begun of Standard material:  material.008
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  instance_0.019_ID157
+		processing begun of Standard material:  __LightGray_
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.029_ID201
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.346_ID664
+		registered as also a user of material:  material_4
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#20
+		num positions      :  17
+		num normals        :  17
+		num uvs            :  34
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  SketchUp.299_ID277
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  138
+		num normals        :  138
+		num uvs            :  276
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  144
+	processing begun of mesh:  SketchUp.326_ID497
+		registered as also a user of material:  material_1
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#21
+		num positions      :  108
+		num normals        :  108
+		num uvs            :  216
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  108
+	processing begun of mesh:  SketchUp.342_ID632
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#22
+		num positions      :  103
+		num normals        :  103
+		num uvs            :  206
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  114
+	processing begun of mesh:  SketchUp.353_ID720
+		processing begun of Standard material:  __Translucent_Glass_Safety_
+			Diffuse texture found "Kd.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  8
+		num normals        :  8
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.298_ID269.001
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#23
+		num positions      :  18
+		num normals        :  18
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  SketchUp.344_ID648
+		registered as also a user of material:  material_1
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#24
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.328_ID520
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#25
+		num positions      :  22
+		num normals        :  22
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  instance_0.004_ID27
+		processing begun of Standard material:  __Color_B24_
+		num positions      :  294
+		num normals        :  294
+		num uvs            :  588
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  354
+	processing begun of mesh:  instance_0.032_ID213
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.349_ID688
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  black
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#26
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  Column.002_Cube.011
+		processing begun of Standard material:  material.009
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.313_ID393
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#27
+		num positions      :  123
+		num normals        :  123
+		num uvs            :  246
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  132
+	processing begun of mesh:  SketchUp.308_ID353
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#28
+		num positions      :  318
+		num normals        :  318
+		num uvs            :  636
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  354
+	processing begun of mesh:  instance_0.006_ID47.001
+		registered as also a user of material:  __Beige_1
+		num positions      :  305
+		num normals        :  305
+		num uvs            :  610
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  366
+	processing begun of mesh:  SketchUp.305_ID327
+		registered as also a user of material:  black
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#29
+		num positions      :  17
+		num normals        :  17
+		num uvs            :  34
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  instance_0.024_ID181
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.336_ID584
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#30
+		num positions      :  88
+		num normals        :  88
+		num uvs            :  176
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  90
+	processing begun of mesh:  instance_0.017_ID141
+		registered as also a user of material:  _96_96_96
+		registered as also a user of material:  __0135_DarkGray_
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#31
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.018_ID149
+		registered as also a user of material:  __Beige_1
+		num positions      :  157
+		num normals        :  157
+		num uvs            :  314
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  186
+	processing begun of mesh:  SketchUp.322_ID465
+		registered as also a user of material:  material_5
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#32
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.339_ID608
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#33
+		num positions      :  138
+		num normals        :  138
+		num uvs            :  276
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  162
+	processing begun of mesh:  SketchUp.310_ID369
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.012_ID101
+		registered as also a user of material:  _96_96_96
+		registered as also a user of material:  __0135_DarkGray_
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#34
+		num positions      :  22
+		num normals        :  22
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  SketchUp.303_ID309
+		registered as also a user of material:  black
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#35
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  Column.003_Cube.013
+		processing begun of Standard material:  material.011
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  instance_0.010_ID81
+		processing begun of Standard material:  jean_blue
+		num positions      :  692
+		num normals        :  692
+		num uvs            :  1384
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  834
+	processing begun of mesh:  SketchUp.348_ID680
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.337_ID592
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#36
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  Column.000_Cube.017
+		processing begun of Standard material:  material.013
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.316_ID417
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  6
+		num normals        :  6
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  instance_0.007_ID55
+		registered as also a user of material:  __Beige_1
+		num positions      :  72
+		num normals        :  72
+		num uvs            :  144
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  84
+	processing begun of mesh:  SketchUp.352_ID712
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.307_ID343
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#37
+		num positions      :  150
+		num normals        :  150
+		num uvs            :  300
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  162
+	processing begun of mesh:  SketchUp.312_ID385
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#38
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  ArtworkPane.001_Cube.008
+		processing begun of Standard material:  material.006
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  Cube.001_Cube.018
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.332_ID552
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#39
+		num positions      :  43
+		num normals        :  43
+		num uvs            :  86
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48
+	processing begun of mesh:  instance_0.026_ID189
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  StructureBeam_Cube.006
+		processing begun of Standard material:  material.002
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  instance_0.023_ID177
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  instance_0.009_ID73
+		registered as also a user of material:  _96_96_96
+		num positions      :  87
+		num normals        :  87
+		num uvs            :  174
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  102
+	processing begun of mesh:  SketchUp.335_ID576
+		registered as also a user of material:  black
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#40
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.320_ID449
+		registered as also a user of material:  black
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#41
+		num positions      :  24
+		num normals        :  24
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  instance_0.031_ID209
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  instance_0.028_ID197
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.321_ID457
+		registered as also a user of material:  material_5
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#42
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.025_ID185
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  SketchUp.359_ID777
+		processing begun of Standard material:  Wall_V2
+			Diffuse texture found "Kd.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  42
+		num normals        :  42
+		num uvs            :  84
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78
+	processing begun of mesh:  SketchUp.350_ID696
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#43
+		num positions      :  46
+		num normals        :  46
+		num uvs            :  92
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  54
+	processing begun of mesh:  instance_0.021_ID169
+		registered as also a user of material:  material_1
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  Cube_Cube.002
+		registered as also a user of material:  None
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.338_ID600
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#44
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  Cube.002_Cube.019
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.318_ID433
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#45
+		num positions      :  72
+		num normals        :  72
+		num uvs            :  144
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  72
+	processing begun of mesh:  SketchUp.341_ID624
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  ArtworkPane_Cube.007
+		processing begun of Standard material:  material.005
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.314_ID401
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#46
+		num positions      :  195
+		num normals        :  195
+		num uvs            :  390
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  222
+	processing begun of mesh:  SketchUp.311_ID377
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.002_ID5
+		registered as also a user of material:  _96_96_96
+		num positions      :  628
+		num normals        :  628
+		num uvs            :  1256
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  762
+	processing begun of mesh:  Cube.003_Cube.020
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.334_ID568
+		registered as also a user of material:  black
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#47
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_0.014_ID117
+		registered as also a user of material:  _96_96_96
+		registered as also a user of material:  __0135_DarkGray_
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#48
+		num positions      :  27
+		num normals        :  27
+		num uvs            :  54
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  SketchUp.358_ID769
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material.001
+		registered as also a user of material:  material_5
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#49
+		num positions      :  18
+		num normals        :  18
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  instance_0.005_ID37
+		registered as also a user of material:  __LightGray_
+		num positions      :  32
+		num normals        :  32
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  SketchUp.343_ID640
+		registered as also a user of material:  __Translucent_Glass_Blue_.001
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  SketchUp.351_ID704
+		registered as also a user of material:  material_0.001
+		registered as also a user of material:  material_1
+		processing begun of multimaterial:  GalleryInteriorV5_2.Multimaterial#50
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.1521 secs
