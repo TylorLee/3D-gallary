@@ -8,118 +8,127 @@ if (BABYLON.Engine.isSupported()) {
   BABYLON.SceneLoader.Load("", "BGE_Building 1-03.babylon", engine, function (newScene) {
     // Wait for textures and shaders to be ready
     newScene.executeWhenReady(function () {
-      
-        for(var i=0; i<newScene.meshes.length; i++){
-          newScene.meshes[i].checkCollisions=true;
+
+      for (var i = 0; i < newScene.meshes.length; i++) {
+        newScene.meshes[i].checkCollisions = true;
+      }
+      // FREE CAMERA
+      var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(87, 50, 57), newScene);
+      // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
+      camera.setTarget(BABYLON.Vector3.Zero());
+      camera.checkCollisions = true; //colider switch
+      camera.ellipsoid = new BABYLON.Vector3(5, 16, 5);
+      camera.minZ = 1;
+      camera.minX = 1;
+      camera.speed = 2;
+      camera.keysUp.push('W'.charCodeAt(0));
+      camera.keysDown.push('S'.charCodeAt(0));
+      camera.keysLeft.push('A'.charCodeAt(0));
+      camera.keysRight.push('D'.charCodeAt(0));
+      camera.attachControl(canvas, true);
+      camera.applyGravity = true; //gravity switch
+      newScene.gravity = new BABYLON.Vector3(0, -1, 0); // weight
+
+      // ENVIRONMENT
+      var skybox = BABYLON.Mesh.CreateBox("skyBox", 1500.0, newScene);
+      var skyboxMaterial = new BABYLON.StandardMaterial("skyBox", newScene);
+      skyboxMaterial.backFaceCulling = false;
+      skyboxMaterial.disableLighting = true;
+      skybox.material = skyboxMaterial;
+
+      skybox.infiniteDistance = true;
+      // prevent reflection to skybox
+      skyboxMaterial.disableLighting = true;
+      skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skybox/", newScene);
+      skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
+
+      // SOUND
+      var music = new BABYLON.Sound("ambiance-music", "assets/sounds/ambiance.mp3", newScene, null, {
+        loop: true,
+        autoplay: true
+      });
+      var music = new BABYLON.Sound("background-music", "assets/sounds/sound.mp3", newScene, null, {
+        loop: true,
+        autoplay: true
+      });
+      var foleyWalk = new BABYLON.Sound("foley-walk", "assets/sounds/foot-step1.mp3", newScene);
+      var walkSpeed = 600;
+      window.addEventListener("keydown", (function (walk) {
+        return function (event) {
+          if (!walk) return false;
+          walk = false;
+          setTimeout(function () {
+            walk = true;
+          }, walkSpeed);
+          switch (event.keyCode) {
+            case 68:
+              return move("right");
+            case 83:
+              return move("down");
+            case 65:
+              return move("left");
+            case 87:
+              return move("up");
+          }
+        };
+      })(true), false);
+
+      function move(direction) {
+        foleyWalk.play();
+      }
+
+
+      // POINT LOCKER
+      var isLocked = false;
+      newScene.onPointerDown = function (evt) { // On click event, request pointer lock
+        if (!isLocked) {
+          canvas.requestPointerLock = canvas.requestPointerLock || canvas.msRequestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
+          if (canvas.requestPointerLock) {
+            canvas.requestPointerLock();
+          }
         }
-        // FREE CAMERA
-        var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(87, 50, 57), newScene);
-        // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
-        camera.setTarget(BABYLON.Vector3.Zero());
-        camera.checkCollisions = true; //colider switch
-        camera.ellipsoid = new BABYLON.Vector3(5, 16, 5);
-        camera.minZ = 1;
-        camera.minX = 1;
-        camera.speed = 2;
-        camera.keysUp.push('W'.charCodeAt(0));
-        camera.keysDown.push('S'.charCodeAt(0));
-        camera.keysLeft.push('A'.charCodeAt(0));
-        camera.keysRight.push('D'.charCodeAt(0));
-        camera.attachControl(canvas, true);
-        camera.applyGravity = true; //gravity switch
-        newScene.gravity = new BABYLON.Vector3(0, -1, 0); // weight
-
-        // ENVIRONMENT
-        var skybox = BABYLON.Mesh.CreateBox("skyBox", 1500.0, newScene);
-        var skyboxMaterial = new BABYLON.StandardMaterial("skyBox", newScene);
-        skyboxMaterial.backFaceCulling = false;
-        skyboxMaterial.disableLighting = true;
-        skybox.material = skyboxMaterial;
-
-        skybox.infiniteDistance = true;
-        // prevent reflection to skybox
-        skyboxMaterial.disableLighting = true;
-        skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skybox/", newScene);
-        skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
-
-        // SOUND
-        var music = new BABYLON.Sound("ambiance-music", "assets/sounds/ambiance.mp3", newScene, null, { loop: true, autoplay: true });
-        var music = new BABYLON.Sound("background-music", "assets/sounds/sound.mp3", newScene, null, { loop: true, autoplay: true });
-
-        var foleyWalk = new BABYLON.Sound("foley-walk", "assets/sounds/foot-step1.mp3", newScene);
-
-        var walkSpeed = 600;
-
-        window.addEventListener("keydown", (function(walk) {
-          return function(event) {
-            if (!walk) return false;
-            walk = false;
-            setTimeout(function() { walk = true; }, walkSpeed);
-            switch (event.keyCode) {
-              case 68: return move("right");
-              case 83: return move("down");
-              case 65: return move("left");
-              case 87: return move("up");
-            }
-          };
-        })(true), false);
-
-        function move(direction) {
-          foleyWalk.play();
+      };
+      var pointerlockchange = function () {
+        var controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;
+        if (!controlEnabled) {
+          //camera.detachControl(canvas);
+          isLocked = false;
+        } else {
+          //camera.attachControl(canvas);
+          isLocked = true;
         }
+      };
+      document.addEventListener("pointerlockchange", pointerlockchange, false);
+      document.addEventListener("mspointerlockchange", pointerlockchange, false);
+      document.addEventListener("mozpointerlockchange", pointerlockchange, false);
+      document.addEventListener("webkitpointerlockchange", pointerlockchange, false);
 
+      // PRE LOADER
+      preloader.onTaskError = function (task) {
+        console.log("error on Loading" + task.name);
+      }
 
-        // POINT LOCKER
-        var isLocked = false;
-        newScene.onPointerDown = function (evt) { // On click event, request pointer lock
-            if (!isLocked) {
-                canvas.requestPointerLock = canvas.requestPointerLock || canvas.msRequestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
-                if (canvas.requestPointerLock) {
-                    canvas.requestPointerLock();
-                }
-            }
-        };
-        var pointerlockchange = function () {
-            var controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;
-            if (!controlEnabled) {
-                //camera.detachControl(canvas);
-                isLocked = false;
-            } else {
-                //camera.attachControl(canvas);
-                isLocked = true;
-            }
-        };
-        document.addEventListener("pointerlockchange", pointerlockchange, false);
-        document.addEventListener("mspointerlockchange", pointerlockchange, false);
-        document.addEventListener("mozpointerlockchange", pointerlockchange, false);
-        document.addEventListener("webkitpointerlockchange", pointerlockchange, false);
+      preloader.onProgress = function (remainingCount, totalCount, lastFinishedTask) {
+        engine.loadingUIText = 'We are loading the scene. ' + remainingCount + ' out of ' + totalCount + ' items still need to be loaded.';
+      };
 
-        // PRE LOADER
-        preloader.onTaskError = function (task) {
-            console.log("error on Loading" + task.name);
-        }
+      preloader.onFinish = function (tasks) {
 
-        preloader.onProgress = function (remainingCount, totalCount, lastFinishedTask) {
-            engine.loadingUIText = 'We are loading the scene. ' + remainingCount + ' out of ' + totalCount + ' items still need to be loaded.';
-        };
-
-        preloader.onFinish = function (tasks) {
-
-            console.log("Finished");
-            engine.runRenderLoop(function () {
-                newScene.render();
-            });
-        };
-        preloader.load();
-        return newScene;
+        console.log("Finished");
+        engine.runRenderLoop(function () {
+          newScene.render();
+        });
+      };
+      preloader.load();
+      return newScene;
 
     });
   }, function (progress) {
-        // To do: give progress feedback to user
-      });
+    // To do: give progress feedback to user
+  });
 }
 
 // Resize //
 window.addEventListener("resize", function () {
-    engine.resize();
+  engine.resize();
 });
