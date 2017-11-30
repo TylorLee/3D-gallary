@@ -1,4 +1,3 @@
 Tylor • DEBUG Layer not working. (https://doc.babylonjs.com/how_to/debug_layer)
-C.Onur • Load scenes and objects from OBJ files.
-C.Onur • Fancy Lights
+Tylor • Fancy Lights & shadows
 C.Onur • Fix mesh collision for assets manager/preloader.
