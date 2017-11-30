@@ -4,7 +4,7 @@ Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
 		selected layers only:  false
 		flat shading entire scene:  true
 		inline textures:  false
-		texture directory:  D:\Users\C. Onur\Desktop\3D Gallery\
+		texture directory:  D:\Users\C. Onur\Desktop\3D Gallery\assets\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
 	processing begun of mesh:  Cube
@@ -24,10 +24,12 @@ Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
 		num colors         :  0
 		num indices        :  2880
 	processing begun of mesh:  Cube.005
-		WARNING: No materials have been assigned: 
+		processing begun of Standard material:  Material.004
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
 		num positions      :  36
 		num normals        :  36
-		num uvs            :  0
+		num uvs            :  72
 		num uvs2           :  0
 		num colors         :  0
 		num indices        :  36
@@ -57,8 +59,7 @@ Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
 		num colors         :  0
 		num indices        :  102
 	processing begun of mesh:  Cube.004
-		processing begun of Standard material:  Material.004
-			WARNING: Mesh has no UV maps, material:  "Texture.001" ignored
+		registered as also a user of material:  Material.004
 		num positions      :  102
 		num normals        :  102
 		num uvs            :  0
@@ -72,4 +73,4 @@ Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
 ========= Writing of scene file started =========
 ========= Writing of scene file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.0554 secs
+elapsed time:  0 min, 0.0612 secs

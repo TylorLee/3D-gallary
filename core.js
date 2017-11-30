@@ -6,7 +6,7 @@ if (BABYLON.Engine.isSupported()) {
   var newScene = new BABYLON.Scene(engine);
   var preloader = new BABYLON.AssetsManager(newScene);
 
-  BABYLON.SceneLoader.Load("", "test.babylon", engine, function (newScene) {
+  BABYLON.SceneLoader.Load("assets/", "circulargallery.babylon", engine, function (newScene) {
     // Wait for textures and shaders to be ready
     newScene.executeWhenReady(function () {
 
@@ -14,11 +14,12 @@ if (BABYLON.Engine.isSupported()) {
         // var shadowGenerators = newScene.shadowGenerator;
 
         // console.log(lights);
-        // for(var i=0; i<newScene.meshes.length; i++){
-        //   var mesh = newScene.meshes[i];
-        //   newScene.meshes[i].checkCollisions=true;
-        //   newScene.meshes[i].receiveShadows=true;
-        // }
+         for(var i=0; i<newScene.meshes.length; i++){
+           var mesh = newScene.meshes[i];
+//           newScene.meshes[i].checkCollisions=true;
+//           newScene.meshes[i].receiveShadows=true;
+            mesh.isPickable = false
+         }
         // for(var i=0; i<newScene.lights.length; i++){
         //   var lights = newScene.lights[i];
         //   console.log(lights);
@@ -70,7 +71,7 @@ if (BABYLON.Engine.isSupported()) {
         skyboxMaterial.disableLighting = true;
         skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skyboxtropical/skybox", newScene);
         skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
-
+        
         // SOUND
         var music = new BABYLON.Sound("ambiance-music", "assets/sounds/ambiance.mp3", newScene, null, { loop: true, autoplay: true });
         var music = new BABYLON.Sound("background-music", "assets/sounds/sound.mp3", newScene, null, { loop: true, autoplay: true });
