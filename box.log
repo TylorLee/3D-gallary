@@ -1,0 +1,168 @@
+Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  true
+		inline textures:  false
+		texture directory:  C:\MAMP\htdocs\3D-gallary\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  flagstone9
+		processing begun of Standard material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone8
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone7
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone6
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone5
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone4
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone3
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone2
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone1
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone0
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  flagstone
+		registered as also a user of material:  01 - Default
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  walls
+		registered as also a user of material:  01 - Default
+		num positions      :  9237
+		num normals        :  9237
+		num uvs            :  18474
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  9237
+	processing begun of mesh:  Glass
+		processing begun of Standard material:  glass
+		num positions      :  348
+		num normals        :  348
+		num uvs            :  696
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  348
+	processing begun of mesh:  rainwater_
+		registered as also a user of material:  01 - Default
+		num positions      :  2064
+		num normals        :  2064
+		num uvs            :  4128
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2064
+	processing begun of mesh:  roof_slab
+		registered as also a user of material:  01 - Default
+		num positions      :  156
+		num normals        :  156
+		num uvs            :  312
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  156
+	processing begun of mesh:  window_fra
+		registered as also a user of material:  01 - Default
+		num positions      :  24948
+		num normals        :  24948
+		num uvs            :  49896
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24948
+	processing begun of mesh:  cladding_l
+		registered as also a user of material:  01 - Default
+		num positions      :  16368
+		num normals        :  16368
+		num uvs            :  32736
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  16368
+	processing begun of mesh:  floors_sla
+		registered as also a user of material:  01 - Default
+		num positions      :  414
+		num normals        :  414
+		num uvs            :  828
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  414
+	processing begun of mesh:  Plane
+		WARNING: No materials have been assigned: 
+		num positions      :  6
+		num normals        :  6
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of light (HEMI):  Sun
+	processing begun of light (SPOT):  Lamp
+	processing begun of shadows for light:  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 3.7898 secs
