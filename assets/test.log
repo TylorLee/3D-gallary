@@ -1,0 +1,76 @@
+Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  true
+		inline textures:  false
+		texture directory:  D:\Users\C. Onur\Desktop\3D Gallery\assets\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  Cube
+		processing begun of Standard material:  TransparentCaster
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  Sphere
+		WARNING: No materials have been assigned: 
+		num positions      :  2880
+		num normals        :  2880
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2880
+	processing begun of mesh:  Cube.005
+		processing begun of Standard material:  Material.004
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  Cube.002
+		processing begun of Standard material:  Material.002
+			WARNING: Mesh has no UV maps, material:  "Texture" ignored
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  Cube.003
+		processing begun of Standard material:  Material.003
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  Cube.001
+		processing begun of Standard material:  Material.001
+		num positions      :  102
+		num normals        :  102
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  102
+	processing begun of mesh:  Cube.004
+		registered as also a user of material:  Material.004
+		num positions      :  102
+		num normals        :  102
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  102
+	processing begun of light (SUN):  Lamp
+	processing begun of shadows for light:  Lamp
+	processing begun of light (SPOT):  Lamp.001
+	processing begun of shadows for light:  Lamp.001
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.0612 secs
