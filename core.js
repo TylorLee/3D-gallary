@@ -1,139 +1,150 @@
-// Initialize Babylon Canvas Rendering //
+if (BABYLON.Engine.isSupported()) {
 
-var canvas = document.getElementById("renderCanvas");
-var engine = new BABYLON.Engine(canvas, true);
-var createScene = function () {
-    var scene = new BABYLON.Scene(engine);
-    var preloader = new BABYLON.AssetsManager(scene);
-    // Scene Starts
-    //            BABYLON.SceneLoader.ImportMesh("", "assets/", "untitled.babylon", scene, function(newMeshes, particleSystems, skeletons) {
-    //                //          for(var i=0; i<scene.meshes.length; i++){
-    //                //              scene.meshes[i].checkCollisions=true;
-    //                //            }
-    //            });
-    //            BABYLON.SceneLoader.Load("assets/", "GalleryInterior.obj", engine, function(newScene) {
-    //                // newScene[0].position = new BABYLON.Vector3(14.5, 9, -24.5);
-    //            });
-    //
-    //            BABYLON.SceneLoader.Load("/assets/", "testobj.obj", engine, function(newScene) {
-    //                // ...
-    //            });
-    var meshTask = preloader.addMeshTask("Interior", "", "assets/", "untitled.babylon");
-    //            var batman = preloader.addMeshTask("testobj", "", "assets/", "testobj.obj");
+  var canvas = document.getElementById("renderCanvas");
+  var engine = new BABYLON.Engine(canvas, true);
+  var newScene = new BABYLON.Scene(engine);
+  var preloader = new BABYLON.AssetsManager(newScene);
 
-    //            BABYLON.SceneLoader.ImportMesh("testobj", "testobj.obj", scene, function (meshes) { 
-    //                // newScene[0].position = new BABYLON.Vector3(14.5, 9, -24.5);
-    //            });
+  BABYLON.SceneLoader.Load("", "box.babylon", engine, function (newScene) {
+    // Wait for textures and shaders to be ready
+    newScene.executeWhenReady(function () {
 
-    // Free camera
-    var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(87, 56, 57), scene);
-    // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
-    camera.setTarget(BABYLON.Vector3.Zero());
-    camera.checkCollisions = true;
-    camera.ellipsoid = new BABYLON.Vector3(5, 10, 5);
-    camera.minZ = 0.8;
-    camera.speed = 3;
-    camera.keysUp.push('W'.charCodeAt(0));
-    camera.keysDown.push('S'.charCodeAt(0));
-    camera.keysLeft.push('A'.charCodeAt(0));
-    camera.keysRight.push('D'.charCodeAt(0));
-    camera.attachControl(canvas, true);
-    camera.applyGravity = false;
-    scene.gravity = new BABYLON.Vector3(0, -1, 0);
+        // MESHS
 
-    //        engine.isPointerLock = true;
-    //        engine.switchFullscreen(true);
-
-    // Take control of the mouse
-    var isLocked = false;
-    scene.onPointerDown = function (evt) { // On click event, request pointer lock
-        if (!isLocked) {
-            canvas.requestPointerLock = canvas.requestPointerLock || canvas.msRequestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
-            if (canvas.requestPointerLock) {
-                canvas.requestPointerLock();
+        // LIGHTING
+        for(var i=0; i<newScene.lights.length; i++){
+                light = newScene.lights[i]; //local var
             }
-        }
-        //referance for future shooting requests or whatever :P
-        //evt === 0 (left mouse click)
-        //evt === 1 (mouse wheel click (not scrolling))
-        //evt === 2 (right mouse click)
-    };
-    var pointerlockchange = function () {
-        var controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;
-        if (!controlEnabled) {
-            //camera.detachControl(canvas);
-            isLocked = false;
-        } else {
-            //camera.attachControl(canvas);
-            isLocked = true;
-        }
-    };
-    document.addEventListener("pointerlockchange", pointerlockchange, false);
-    document.addEventListener("mspointerlockchange", pointerlockchange, false);
-    document.addEventListener("mozpointerlockchange", pointerlockchange, false);
-    document.addEventListener("webkitpointerlockchange", pointerlockchange, false);
+            console.log("DEBUG MSG: this is: " + light);
 
-    //        scene.onPointerDown = function () {
-    //          scene.onPointerDown = undefined
-    //          camera.attachControl(canvas, true);
-    //            canvas.requestPointerLock();
-    //        }
-
-    // Lights
-    var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 10, 1), scene);
-    light.intensity = 0.6;
-
-    var light0 = new BABYLON.SpotLight("Spot0", new BABYLON.Vector3(317, 58, 10), new BABYLON.Vector3(5.3, -3, -1), 200, 1, scene);
-    light0.diffuse = new BABYLON.Color3(1, 1, 1);
-    light0.specular = new BABYLON.Color3(1, 1, 1);
-
-
-    // TODO: DEBUG Layer not working. Solve this D:
-    //    BABYLON.DebugLayer.InspectorURL = 'http://myurl/babylon.inspector.bundle.js';
-    //   scene.debugLayer.show({
-    //    popup:true, 
-    //    initialTab : 2, 
-    //    parentElement:document.getElementById('#mydiv'),
-    //    newColors: {
-    //        backgroundColor: '#eee',
-    //        backgroundColorLighter: '#fff',
-    //        backgroundColorLighter2: '#fff',
-    //        backgroundColorLighter3: '#fff',
-    //        color: '#333',
-    //        colorTop:'red', 
-    //        colorBottom:'blue'
-    //    }
-    //});
-
-    meshTask.onSuccess = function (task) {
-        task.loadedMeshes[0].position = new BABYLON.Vector3(0, 0, 0);
-        engine.loadingUIText = "Loaded asset " + task.loadedMeshes[0].name;
-        console.log(task.loadedMeshes[0].name);
-        for (var i = 0; i < scene.meshes.length; i++) {
-            scene.meshes[i].checkCollisions = true;
-        }
-    }
-
-    preloader.onTaskError = function (task) {
-        console.log("error on Loading" + task.name);
-    }
-
-    preloader.onProgress = function (remainingCount, totalCount, lastFinishedTask) {
-        engine.loadingUIText = 'We are loading the scene. ' + remainingCount + ' out of ' + totalCount + ' items still need to be loaded.';
-    };
-
-    preloader.onFinish = function (tasks) {
-
-        console.log("Finished");
-        engine.runRenderLoop(function () {
-            scene.render();
+        // SHADOW GENERATOR
+        var shadowGenerator = new BABYLON.ShadowGenerator(4000, light);
+        newScene.meshes.slice(1).forEach(function(mesh) {
+			  //	console.log(mesh);
+				    shadowGenerator.getShadowMap().renderList.push(mesh);
         });
-    };
-    preloader.load();
-    return scene;
+        // SHADOW RECEIVER
+        newScene.meshes.forEach(function(mesh) {
+          mesh.receiveShadows = true;
+        });
+        // SHADOW CONTROL
+			  shadowGenerator.useVarianceShadowMap = true;
+			  shadowGenerator.bias = 0.00001;
+        shadowGenerator.useExponentialShadowMap = true;
+			  shadowGenerator.usePoissonSampling = true;
+        // shadowGenerator.useBlurExponentialShadowMap = true;
+        shadowGenerator.useKernelBlur = true;
+        shadowGenerator.blurKernel = 150;
 
-};
-var scene = createScene();
+
+        // FREE CAMERA
+        var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(10, 1, 10), newScene);
+        // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
+        camera.setTarget(BABYLON.Vector3.Zero());
+        camera.checkCollisions = true; //colider switch
+        camera.ellipsoid = new BABYLON.Vector3(1, 1.5, 1);
+        camera.minZ = 1;
+        camera.minX = 1;
+        camera.speed = .2;
+        camera.keysUp.push('W'.charCodeAt(0));
+        camera.keysDown.push('S'.charCodeAt(0));
+        camera.keysLeft.push('A'.charCodeAt(0));
+        camera.keysRight.push('D'.charCodeAt(0));
+        camera.attachControl(canvas, true);
+        camera.applyGravity = true; //gravity switch
+        newScene.gravity = new BABYLON.Vector3(0, -.1, 0); // weight
+
+
+
+        // ENVIRONMENT
+        var skybox = BABYLON.Mesh.CreateBox("skyBox", 1500.0, newScene);
+        var skyboxMaterial = new BABYLON.StandardMaterial("skyBox", newScene);
+        skyboxMaterial.backFaceCulling = false;
+        skyboxMaterial.disableLighting = true;
+        skybox.material = skyboxMaterial;
+
+        skybox.infiniteDistance = true;
+        // prevent reflection to skybox
+        skyboxMaterial.disableLighting = true;
+        skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("assets/textures/skyboxtropical/skybox", newScene);
+        skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
+
+        // SOUND
+        var music = new BABYLON.Sound("ambiance-music", "assets/sounds/ambiance.mp3", newScene, null, { loop: true, autoplay: true });
+        var music = new BABYLON.Sound("background-music", "assets/sounds/sound.mp3", newScene, null, { loop: true, autoplay: true });
+
+        var foleyWalk = new BABYLON.Sound("foley-walk", "assets/sounds/foot-step1.mp3", newScene);
+
+        var walkSpeed = 600;
+
+        window.addEventListener("keydown", (function(walk) {
+          return function(event) {
+            if (!walk) return false;
+            walk = false;
+            setTimeout(function() { walk = true; }, walkSpeed);
+            switch (event.keyCode) {
+              case 68: return move("right");
+              case 83: return move("down");
+              case 65: return move("left");
+              case 87: return move("up");
+            }
+          };
+        })(true), false);
+
+        function move(direction) {
+          foleyWalk.play();
+        }
+
+
+        // POINT LOCKER
+        var isLocked = false;
+        newScene.onPointerDown = function (evt) { // On click event, request pointer lock
+            if (!isLocked) {
+                canvas.requestPointerLock = canvas.requestPointerLock || canvas.msRequestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
+                if (canvas.requestPointerLock) {
+                    canvas.requestPointerLock();
+                }
+            }
+        };
+        var pointerlockchange = function () {
+            var controlEnabled = document.mozPointerLockElement || document.webkitPointerLockElement || document.msPointerLockElement || document.pointerLockElement || null;
+            if (!controlEnabled) {
+                //camera.detachControl(canvas);
+                isLocked = false;
+            } else {
+                //camera.attachControl(canvas);
+                isLocked = true;
+            }
+        };
+        document.addEventListener("pointerlockchange", pointerlockchange, false);
+        document.addEventListener("mspointerlockchange", pointerlockchange, false);
+        document.addEventListener("mozpointerlockchange", pointerlockchange, false);
+        document.addEventListener("webkitpointerlockchange", pointerlockchange, false);
+
+        // PRE LOADER
+        preloader.onTaskError = function (task) {
+            console.log("error on Loading" + task.name);
+        }
+
+        preloader.onProgress = function (remainingCount, totalCount, lastFinishedTask) {
+            engine.loadingUIText = 'We are loading the scene. ' + remainingCount + ' out of ' + totalCount + ' items still need to be loaded.';
+        };
+
+        preloader.onFinish = function (tasks) {
+
+            console.log("Finished");
+            engine.runRenderLoop(function () {
+                newScene.render();
+            });
+        };
+        preloader.load();
+        return newScene;
+
+    });
+  }, function (progress) {
+        // To do: give progress feedback to user
+      });
+}
 
 // Resize //
 window.addEventListener("resize", function () {

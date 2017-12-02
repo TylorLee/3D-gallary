@@ -1,0 +1,757 @@
+Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  true
+		inline textures:  false
+		texture directory:  C:\MAMP\htdocs\3D-gallary\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of node:  hand bar
+	processing begun of mesh:  개체_7
+		processing begun of Standard material:  재질_1
+		num positions      :  1836
+		num normals        :  1836
+		num uvs            :  3672
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1836
+	processing begun of mesh:  개체_6
+		registered as also a user of material:  재질_1
+		num positions      :  4956
+		num normals        :  4956
+		num uvs            :  9912
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4956
+	processing begun of mesh:  개체_5
+		registered as also a user of material:  재질_1
+		num positions      :  2064
+		num normals        :  2064
+		num uvs            :  4128
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2064
+	processing begun of node:  stair
+	processing begun of node:  door
+	processing begun of mesh:  개체_9
+		processing begun of Standard material:  darkWood
+			Diffuse texture found "Texture.003"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  2157
+		num normals        :  2157
+		num uvs            :  4314
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2157
+	processing begun of node:  subtract
+	processing begun of node:  construction
+	processing begun of mesh:  construction_2
+		processing begun of Standard material:  concrete
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  65535
+		num normals        :  65535
+		num uvs            :  131070
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  65535
+	WARNING: The following mesh has exceeded the maximum # of vertex elements & will be broken into multiple Babylon meshes: construction_2
+	processing begun of mesh:  construction_21
+		registered as also a user of material:  concrete
+		num positions      :  26751
+		num normals        :  26751
+		num uvs            :  53502
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  26751
+	processing begun of mesh:  개체_4
+		registered as also a user of material:  concrete
+		num positions      :  468
+		num normals        :  468
+		num uvs            :  936
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  468
+	processing begun of mesh:  개체_3
+		registered as also a user of material:  concrete
+		num positions      :  924
+		num normals        :  924
+		num uvs            :  1848
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  924
+	processing begun of mesh:  개체_2
+		registered as also a user of material:  concrete
+		num positions      :  1482
+		num normals        :  1482
+		num uvs            :  2964
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1482
+	processing begun of mesh:  second floor
+		registered as also a user of material:  concrete
+		num positions      :  15258
+		num normals        :  15258
+		num uvs            :  30516
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  15258
+	processing begun of mesh:  ground block
+		registered as also a user of material:  concrete
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of node:  ground
+	processing begun of mesh:  개체_8
+		processing begun of Standard material:  ground
+			Diffuse texture found "Texture.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of node:  frames
+	processing begun of mesh:  개체_10
+		processing begun of Standard material:  lightWood
+			Diffuse texture found "Texture.004"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  49056
+		num normals        :  49056
+		num uvs            :  98112
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  49056
+	processing begun of node:  window
+	processing begun of mesh:  개체_13
+		processing begun of Standard material:  window.001
+		num positions      :  852
+		num normals        :  852
+		num uvs            :  1704
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  852
+	processing begun of mesh:  개체_12
+		registered as also a user of material:  window.001
+		num positions      :  1572
+		num normals        :  1572
+		num uvs            :  3144
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1572
+	processing begun of mesh:  개체_11
+		registered as also a user of material:  window.001
+		num positions      :  852
+		num normals        :  852
+		num uvs            :  1704
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  852
+	processing begun of mesh:  construction_3
+		registered as also a user of material:  window.001
+		num positions      :  13176
+		num normals        :  13176
+		num uvs            :  26352
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  13176
+	processing begun of node:  lights
+	processing begun of mesh:  light_72
+		processing begun of Standard material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_71
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_70
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_69
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_68
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_67
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_66
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_65
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_64
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_63
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_62
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_61
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_60
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_59
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_58
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_57
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_56
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_55
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_54
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_53
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_52
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_51
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_50
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_49
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_48
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_47
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_46
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_45
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_44
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_43
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_42
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_41
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_40
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_39
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_38
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_37
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_36
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_35
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_34
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_33
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_32
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_31
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_30
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_29
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_28
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_27
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_26
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_25
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_24
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_23
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_22
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_21
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_20
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_19
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_18
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_17
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_16
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_15
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_14
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_13
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_12
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_11
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_10
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_9
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_8
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_7
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_6
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_5
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_4
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_3
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light_2
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of mesh:  light
+		registered as also a user of material:  lights
+		num positions      :  1584
+		num normals        :  1584
+		num uvs            :  3168
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1584
+	processing begun of node:  gatest
+	processing begun of mesh:  Plane
+		WARNING: No materials have been assigned: 
+		num positions      :  6
+		num normals        :  6
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of light (HEMI):  Sun.002
+	processing begun of light (HEMI):  Sun.001
+	processing begun of light (HEMI):  Sun
+	processing begun of light (SPOT):  Lamp
+	processing begun of shadows for light:  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 18.0919 secs
