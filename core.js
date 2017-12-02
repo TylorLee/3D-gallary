@@ -8,6 +8,7 @@ if (BABYLON.Engine.isSupported()) {
   BABYLON.SceneLoader.Load("", "box.babylon", engine, function (newScene) {
     // Wait for textures and shaders to be ready
     newScene.executeWhenReady(function () {
+      newScene.ambientColor = new BABYLON.Color3(.4, .4, .4);
 
         // MESHS
 
@@ -18,23 +19,29 @@ if (BABYLON.Engine.isSupported()) {
             console.log("DEBUG MSG: this is: " + light);
 
         // SHADOW GENERATOR
-        var shadowGenerator = new BABYLON.ShadowGenerator(4000, light);
+        var shadowGenerator = new BABYLON.ShadowGenerator(2048, light);
         newScene.meshes.slice(1).forEach(function(mesh) {
 			  //	console.log(mesh);
-				    shadowGenerator.getShadowMap().renderList.push(mesh);
+			shadowGenerator.getShadowMap().renderList.push(mesh);
         });
         // SHADOW RECEIVER
         newScene.meshes.forEach(function(mesh) {
-          mesh.receiveShadows = true;
+        	mesh.receiveShadows = true;
         });
         // SHADOW CONTROL
-			  shadowGenerator.useVarianceShadowMap = true;
-			  shadowGenerator.bias = 0.00001;
-        shadowGenerator.useExponentialShadowMap = true;
-			  shadowGenerator.usePoissonSampling = true;
-        // shadowGenerator.useBlurExponentialShadowMap = true;
-        shadowGenerator.useKernelBlur = true;
-        shadowGenerator.blurKernel = 100;
+		shadowGenerator.useBlurExponentialShadowMap = true;
+    	shadowGenerator.blurBoxOffset = 2.0;
+		
+		shadowGenerator.useVarianceShadowMap = false;
+		shadowGenerator.bias = 0.0001;
+        shadowGenerator.useBlurExponentialShadowMap = false;
+		shadowGenerator.usePoissonSampling = true;
+//        shadowGenerator.useKernelBlur = true;
+//        shadowGenerator.blurKernel = 4;
+//        shadowGenerator.blurScale = 4;
+		
+//		shadowGenerator.useBlurCloseExponentialShadowMap = true;
+		
 
 
         // FREE CAMERA
@@ -53,8 +60,7 @@ if (BABYLON.Engine.isSupported()) {
         camera.attachControl(canvas, true);
         camera.applyGravity = true; //gravity switch
         newScene.gravity = new BABYLON.Vector3(0, -1, 0); // weight
-
-
+		
 
         // ENVIRONMENT
         var skybox = BABYLON.Mesh.CreateBox("skyBox", 1500.0, newScene);
@@ -70,8 +76,8 @@ if (BABYLON.Engine.isSupported()) {
         skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
 
         // SOUND
-        var music = new BABYLON.Sound("ambiance-music", "assets/sounds/ambiance.mp3", newScene, null, { loop: true, autoplay: true });
-        var music = new BABYLON.Sound("background-music", "assets/sounds/sound.mp3", newScene, null, { loop: true, autoplay: true });
+//        var music = new BABYLON.Sound("ambiance-music", "assets/sounds/ambiance.mp3", newScene, null, { loop: true, autoplay: true });
+//        var music = new BABYLON.Sound("background-music", "assets/sounds/sound.mp3", newScene, null, { loop: true, autoplay: true });
 
         var foleyWalk = new BABYLON.Sound("foley-walk", "assets/sounds/foot-step1.mp3", newScene);
 
