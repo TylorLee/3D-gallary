@@ -1,0 +1,716 @@
+Exporter version: 5.4.2, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  true
+		inline textures:  false
+		texture directory:  C:\MAMP\htdocs\3D-gallary\assets\models\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of node:  hand bar
+	processing begun of mesh:  개체_83
+		processing begun of Standard material:  lightWood
+			Diffuse texture found "Texture.004"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  510
+		num normals        :  510
+		num uvs            :  1020
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  510
+	processing begun of mesh:  개체_82
+		registered as also a user of material:  lightWood
+		num positions      :  288
+		num normals        :  288
+		num uvs            :  576
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  288
+	processing begun of mesh:  개체_81
+		registered as also a user of material:  lightWood
+		num positions      :  1362
+		num normals        :  1362
+		num uvs            :  2724
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1362
+	processing begun of node:  stair
+	processing begun of node:  door
+	processing begun of mesh:  개체_75
+		processing begun of Standard material:  darkWood
+			Diffuse texture found "Texture.003"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  303
+		num normals        :  303
+		num uvs            :  606
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  303
+	processing begun of node:  subtract
+	processing begun of node:  construction
+	processing begun of mesh:  개체_84
+		processing begun of Standard material:  concrete
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  48396
+		num normals        :  48396
+		num uvs            :  96792
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48396
+	processing begun of mesh:  개체_80
+		processing begun of Standard material:  재질_2
+		num positions      :  156
+		num normals        :  156
+		num uvs            :  312
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  156
+	processing begun of node:  ground
+	processing begun of mesh:  개체_74
+		processing begun of Standard material:  ground
+			Diffuse texture found "Texture.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  552
+		num normals        :  552
+		num uvs            :  1104
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  552
+	processing begun of node:  frames
+	processing begun of mesh:  개체_76
+		registered as also a user of material:  lightWood
+		num positions      :  21252
+		num normals        :  21252
+		num uvs            :  42504
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  21252
+	processing begun of node:  window
+	processing begun of mesh:  개체_79
+		processing begun of Standard material:  window.001
+		num positions      :  276
+		num normals        :  276
+		num uvs            :  552
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  276
+	processing begun of mesh:  개체_78
+		registered as also a user of material:  window.001
+		num positions      :  804
+		num normals        :  804
+		num uvs            :  1608
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  804
+	processing begun of mesh:  개체_77
+		registered as also a user of material:  window.001
+		num positions      :  276
+		num normals        :  276
+		num uvs            :  552
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  276
+	processing begun of mesh:  construction_2
+		registered as also a user of material:  window.001
+		num positions      :  3216
+		num normals        :  3216
+		num uvs            :  6432
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3216
+	processing begun of node:  lights
+	processing begun of mesh:  개체_73
+		processing begun of Standard material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_72
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_71
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_70
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_69
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_68
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_67
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_66
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_65
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_64
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_63
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_62
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_61
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_60
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_59
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_58
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_57
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_56
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_55
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_54
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_53
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_52
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_51
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_50
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_49
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_48
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_47
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_46
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_45
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_44
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_43
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_42
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_41
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_40
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_39
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_38
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_37
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_36
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_35
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_34
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_33
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_32
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_31
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_30
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_29
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_28
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_27
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_26
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_25
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_24
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_23
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_22
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_21
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_20
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_19
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_18
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_17
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_16
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_15
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_14
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_13
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_12
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_11
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_10
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_9
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_8
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_7
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_6
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_5
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_4
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_3
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  개체_1
+		registered as also a user of material:  lights
+		num positions      :  36
+		num normals        :  36
+		num uvs            :  72
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of node:  gatest
+	processing begun of mesh:  Plane
+		WARNING: No materials have been assigned: 
+		num positions      :  6
+		num normals        :  6
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of light (HEMI):  1.right_ambient
+	processing begun of light (HEMI):  1.left_ambient
+	processing begun of light (HEMI):  1.top_ambient
+	processing begun of light (SPOT):  1.Sun.001
+	processing begun of shadows for light:  1.Sun.001
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 5.4436 secs
