@@ -5,10 +5,10 @@ if (BABYLON.Engine.isSupported()) {
   var newScene = new BABYLON.Scene(engine);
   var preloader = new BABYLON.AssetsManager(newScene);
 
-  BABYLON.SceneLoader.Load("", "box.babylon", engine, function (newScene) {
+  BABYLON.SceneLoader.Load("", "circulargalleryV3.babylon", engine, function (newScene) {
     // Wait for textures and shaders to be ready
     newScene.executeWhenReady(function () {
-      newScene.ambientColor = new BABYLON.Color3(.4, .4, .4);
+      newScene.ambientColor = new BABYLON.Color3(.2, .2, .2);
 
         // MESHS
 
@@ -56,7 +56,7 @@ newScene.registerBeforeRender(function () {
         var shadowGenerator = new BABYLON.ShadowGenerator(2048, light);
         newScene.meshes.slice(1).forEach(function(mesh) {
 			  	console.warn(mesh);
-			shadowGenerator.getShadowMap().renderList.push(mesh);
+//			shadowGenerator.getShadowMap().renderList.push(mesh);
         });
         // SHADOW RECEIVER
         newScene.meshes.forEach(function(mesh) {
