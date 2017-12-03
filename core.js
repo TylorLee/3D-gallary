@@ -5,7 +5,11 @@ if (BABYLON.Engine.isSupported()) {
   var newScene = new BABYLON.Scene(engine);
   var preloader = new BABYLON.AssetsManager(newScene);
 
+<<<<<<< HEAD
   BABYLON.SceneLoader.Load("assets/models/", "museumReady2.babylon", engine, function (newScene) {
+=======
+  BABYLON.SceneLoader.Load("", "box.babylon", engine, function (newScene) {
+>>>>>>> 5fd945f11dec8d07709ed63467bbfd660a9f6df1
     // Wait for textures and shaders to be ready
     newScene.executeWhenReady(function () {
 
@@ -38,7 +42,11 @@ if (BABYLON.Engine.isSupported()) {
 
 
         // FREE CAMERA
+<<<<<<< HEAD
         var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(10, 4, 1), newScene);
+=======
+        var camera = new BABYLON.WebVRFreeCamera("camera1", new BABYLON.Vector3(10, 1, 10), newScene);
+>>>>>>> 5fd945f11dec8d07709ed63467bbfd660a9f6df1
         // var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(-15, 50, -5), scene);
         camera.setTarget(BABYLON.Vector3.Zero());
         camera.checkCollisions = true; //colider switch
